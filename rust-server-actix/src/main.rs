@@ -5,7 +5,7 @@ use actix_web::{web, App, HttpServer};
 
 #[get("/")]
 fn index() -> &'static str {
-    r#"Rust-vs-node benchmark<br/>Rust-server benchmark server"#
+    r#"Rust-vs-node benchmark<br/>Rust-server-actix benchmark server"#
 }
 
 fn fib(path: web::Path<(i64,)>) -> String {

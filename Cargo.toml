@@ -2,4 +2,5 @@
 
 members = [
     "rust-server-actix",
+    "rust-server-warp",
 ]
